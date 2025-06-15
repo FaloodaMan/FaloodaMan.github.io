@@ -1,0 +1,48 @@
+#container1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#container2{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    z-index: 100;
+    top:0;
+    left:0;
+}
+#container3{
+    width: 100px;
+    height:100px;
+    background-color: aquamarine;
+    position: sticky;
+    top:5px;
+}
+#box{
+     border: 2px dotted black;
+     padding: 20px;
+     width:fit-content;
+     margin: 10px;
+}
+#box:hover{
+    background-color: black;
+}
+.redbox{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.flex{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 5px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    background-color: burlywood;
+
+}
