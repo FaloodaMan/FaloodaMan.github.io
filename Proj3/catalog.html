@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Book Catalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📚 Book Catalog</h1>
+
+  <section id="form-section">
+    <form id="bookForm">
+      <input type="text" id="title" placeholder="Book Title" required />
+      <input type="text" id="author" placeholder="Author Name" required />
+      <input type="url" id="coverImageUrl" placeholder="Cover Image URL" required />
+      <input type="number" id="price" placeholder="Price" required />
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="book-list-section">
+    <h2>Your Books</h2>
+    <div id="book-list" class="book-grid"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
